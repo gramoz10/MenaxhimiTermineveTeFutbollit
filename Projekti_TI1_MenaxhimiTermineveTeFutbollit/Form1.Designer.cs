@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition5 = new Telerik.WinControls.UI.TableViewDefinition();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition6 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition9 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition10 = new Telerik.WinControls.UI.TableViewDefinition();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition7 = new Telerik.WinControls.UI.TableViewDefinition();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition8 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition11 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition12 = new Telerik.WinControls.UI.TableViewDefinition();
             this.GV_Rezervimet = new Telerik.WinControls.UI.RadGridView();
             this.Usersgv = new Telerik.WinControls.UI.RadGridView();
             this.radRibbonBarGroup4 = new Telerik.WinControls.UI.RadRibbonBarGroup();
@@ -127,7 +127,7 @@
             this.GV_Rezervimet.MasterTemplate.AllowEditRow = false;
             this.GV_Rezervimet.MasterTemplate.AllowSearchRow = true;
             this.GV_Rezervimet.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.GV_Rezervimet.MasterTemplate.ViewDefinition = tableViewDefinition5;
+            this.GV_Rezervimet.MasterTemplate.ViewDefinition = tableViewDefinition9;
             this.GV_Rezervimet.Name = "GV_Rezervimet";
             this.GV_Rezervimet.Size = new System.Drawing.Size(1175, 484);
             this.GV_Rezervimet.TabIndex = 2;
@@ -151,7 +151,7 @@
             this.Usersgv.MasterTemplate.AllowRowReorder = true;
             this.Usersgv.MasterTemplate.AllowSearchRow = true;
             this.Usersgv.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.Usersgv.MasterTemplate.ViewDefinition = tableViewDefinition6;
+            this.Usersgv.MasterTemplate.ViewDefinition = tableViewDefinition10;
             this.Usersgv.Name = "Usersgv";
             this.Usersgv.Size = new System.Drawing.Size(1175, 484);
             this.Usersgv.TabIndex = 4;
@@ -348,7 +348,7 @@
             this.klientatgv.MasterTemplate.AllowRowReorder = true;
             this.klientatgv.MasterTemplate.AllowSearchRow = true;
             this.klientatgv.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.klientatgv.MasterTemplate.ViewDefinition = tableViewDefinition7;
+            this.klientatgv.MasterTemplate.ViewDefinition = tableViewDefinition11;
             this.klientatgv.Name = "klientatgv";
             this.klientatgv.Size = new System.Drawing.Size(1171, 462);
             this.klientatgv.TabIndex = 5;
@@ -373,7 +373,7 @@
             this.fushatgv.MasterTemplate.AllowRowReorder = true;
             this.fushatgv.MasterTemplate.AllowSearchRow = true;
             this.fushatgv.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.fushatgv.MasterTemplate.ViewDefinition = tableViewDefinition8;
+            this.fushatgv.MasterTemplate.ViewDefinition = tableViewDefinition12;
             this.fushatgv.Name = "fushatgv";
             this.fushatgv.Size = new System.Drawing.Size(1173, 458);
             this.fushatgv.TabIndex = 6;
@@ -393,7 +393,7 @@
             this.btnEditLoggedUser.Name = "btnEditLoggedUser";
             this.btnEditLoggedUser.StretchHorizontally = false;
             this.btnEditLoggedUser.StretchVertically = false;
-            this.btnEditLoggedUser.Text = "Edito Userin";
+            this.btnEditLoggedUser.Text = "Edito Userin ";
             this.btnEditLoggedUser.UseCompatibleTextRendering = false;
             this.btnEditLoggedUser.Click += new System.EventHandler(this.btnEditLoggedUser_Click);
             // 
