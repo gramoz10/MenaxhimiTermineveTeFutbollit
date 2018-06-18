@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition13 = new Telerik.WinControls.UI.TableViewDefinition();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition14 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition5 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition6 = new Telerik.WinControls.UI.TableViewDefinition();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition15 = new Telerik.WinControls.UI.TableViewDefinition();
-            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition16 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition7 = new Telerik.WinControls.UI.TableViewDefinition();
+            Telerik.WinControls.UI.TableViewDefinition tableViewDefinition8 = new Telerik.WinControls.UI.TableViewDefinition();
             this.GV_Rezervimet = new Telerik.WinControls.UI.RadGridView();
             this.Usersgv = new Telerik.WinControls.UI.RadGridView();
             this.radRibbonBarGroup4 = new Telerik.WinControls.UI.RadRibbonBarGroup();
@@ -64,6 +64,8 @@
             this.btnEditoRezervim = new Telerik.WinControls.UI.RadButtonElement();
             this.btnRefreshRezervimet = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement23 = new Telerik.WinControls.UI.RadButtonElement();
+            this.btnRezervimetHelp = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radButtonElement2 = new Telerik.WinControls.UI.RadButtonElement();
             this.ribbonTab4 = new Telerik.WinControls.UI.RibbonTab();
             this.btnAddFusha = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement15 = new Telerik.WinControls.UI.RadButtonElement();
@@ -73,6 +75,8 @@
             this.radButtonElement17 = new Telerik.WinControls.UI.RadButtonElement();
             this.btnRefreshFushat = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement22 = new Telerik.WinControls.UI.RadButtonElement();
+            this.btnFushatHelp = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radButtonElement14 = new Telerik.WinControls.UI.RadButtonElement();
             this.ribbonTab3 = new Telerik.WinControls.UI.RibbonTab();
             this.btnAddKlient = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement18 = new Telerik.WinControls.UI.RadButtonElement();
@@ -80,6 +84,8 @@
             this.radButtonElement19 = new Telerik.WinControls.UI.RadButtonElement();
             this.btnRefreshKlient = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement20 = new Telerik.WinControls.UI.RadButtonElement();
+            this.btnKlientatHelp = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radButtonElement26 = new Telerik.WinControls.UI.RadButtonElement();
             this.ribbonTab2 = new Telerik.WinControls.UI.RibbonTab();
             this.btnAddUser = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement12 = new Telerik.WinControls.UI.RadButtonElement();
@@ -87,17 +93,11 @@
             this.radButtonElement13 = new Telerik.WinControls.UI.RadButtonElement();
             this.btnRefreshUser = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement21 = new Telerik.WinControls.UI.RadButtonElement();
-            this.radRibbonBar1 = new Telerik.WinControls.UI.RadRibbonBar();
-            this.btnRezervimetHelp = new Telerik.WinControls.UI.RadRibbonBarGroup();
-            this.radButtonElement2 = new Telerik.WinControls.UI.RadButtonElement();
-            this.radRibbonBarGroup1 = new Telerik.WinControls.UI.RadRibbonBarGroup();
-            this.radButtonElement3 = new Telerik.WinControls.UI.RadButtonElement();
-            this.btnFushatHelp = new Telerik.WinControls.UI.RadRibbonBarGroup();
-            this.radButtonElement14 = new Telerik.WinControls.UI.RadButtonElement();
             this.radRibbonBarGroup12 = new Telerik.WinControls.UI.RadRibbonBarGroup();
             this.radButtonElement24 = new Telerik.WinControls.UI.RadButtonElement();
-            this.btnKlientatHelp = new Telerik.WinControls.UI.RadRibbonBarGroup();
-            this.radButtonElement26 = new Telerik.WinControls.UI.RadButtonElement();
+            this.radRibbonBar1 = new Telerik.WinControls.UI.RadRibbonBar();
+            this.radRibbonBarGroup1 = new Telerik.WinControls.UI.RadRibbonBarGroup();
+            this.radButtonElement3 = new Telerik.WinControls.UI.RadButtonElement();
             ((System.ComponentModel.ISupportInitialize)(this.GV_Rezervimet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.GV_Rezervimet.MasterTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Usersgv)).BeginInit();
@@ -127,7 +127,7 @@
             this.GV_Rezervimet.MasterTemplate.AllowEditRow = false;
             this.GV_Rezervimet.MasterTemplate.AllowSearchRow = true;
             this.GV_Rezervimet.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.GV_Rezervimet.MasterTemplate.ViewDefinition = tableViewDefinition13;
+            this.GV_Rezervimet.MasterTemplate.ViewDefinition = tableViewDefinition5;
             this.GV_Rezervimet.Name = "GV_Rezervimet";
             this.GV_Rezervimet.Size = new System.Drawing.Size(1175, 484);
             this.GV_Rezervimet.TabIndex = 2;
@@ -151,7 +151,7 @@
             this.Usersgv.MasterTemplate.AllowRowReorder = true;
             this.Usersgv.MasterTemplate.AllowSearchRow = true;
             this.Usersgv.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.Usersgv.MasterTemplate.ViewDefinition = tableViewDefinition14;
+            this.Usersgv.MasterTemplate.ViewDefinition = tableViewDefinition6;
             this.Usersgv.Name = "Usersgv";
             this.Usersgv.Size = new System.Drawing.Size(1175, 484);
             this.Usersgv.TabIndex = 4;
@@ -348,7 +348,7 @@
             this.klientatgv.MasterTemplate.AllowRowReorder = true;
             this.klientatgv.MasterTemplate.AllowSearchRow = true;
             this.klientatgv.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.klientatgv.MasterTemplate.ViewDefinition = tableViewDefinition15;
+            this.klientatgv.MasterTemplate.ViewDefinition = tableViewDefinition7;
             this.klientatgv.Name = "klientatgv";
             this.klientatgv.Size = new System.Drawing.Size(1171, 462);
             this.klientatgv.TabIndex = 5;
@@ -373,7 +373,7 @@
             this.fushatgv.MasterTemplate.AllowRowReorder = true;
             this.fushatgv.MasterTemplate.AllowSearchRow = true;
             this.fushatgv.MasterTemplate.AutoSizeColumnsMode = Telerik.WinControls.UI.GridViewAutoSizeColumnsMode.Fill;
-            this.fushatgv.MasterTemplate.ViewDefinition = tableViewDefinition16;
+            this.fushatgv.MasterTemplate.ViewDefinition = tableViewDefinition8;
             this.fushatgv.Name = "fushatgv";
             this.fushatgv.Size = new System.Drawing.Size(1173, 458);
             this.fushatgv.TabIndex = 6;
@@ -384,7 +384,7 @@
             this.btnSignOut.Name = "btnSignOut";
             this.btnSignOut.StretchHorizontally = false;
             this.btnSignOut.StretchVertically = false;
-            this.btnSignOut.Text = "Sign Out";
+            this.btnSignOut.Text = "Shkyçu";
             this.btnSignOut.UseCompatibleTextRendering = false;
             this.btnSignOut.Click += new System.EventHandler(this.btnSignOut_Click);
             // 
@@ -393,7 +393,7 @@
             this.btnEditLoggedUser.Name = "btnEditLoggedUser";
             this.btnEditLoggedUser.StretchHorizontally = false;
             this.btnEditLoggedUser.StretchVertically = false;
-            this.btnEditLoggedUser.Text = "Edit User";
+            this.btnEditLoggedUser.Text = "Edito Userin";
             this.btnEditLoggedUser.UseCompatibleTextRendering = false;
             this.btnEditLoggedUser.Click += new System.EventHandler(this.btnEditLoggedUser_Click);
             // 
@@ -424,7 +424,7 @@
             this.btnAddRezervim.MaxSize = new System.Drawing.Size(0, 0);
             this.btnAddRezervim.MinSize = new System.Drawing.Size(0, 0);
             this.btnAddRezervim.Name = "btnAddRezervim";
-            this.btnAddRezervim.Text = "Add";
+            this.btnAddRezervim.Text = "Shto";
             this.btnAddRezervim.UseCompatibleTextRendering = false;
             this.btnAddRezervim.Click += new System.EventHandler(this.btnAddRezervim_Click);
             // 
@@ -445,7 +445,7 @@
             this.radRibbonBarGroup2.MaxSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup2.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup2.Name = "radRibbonBarGroup2";
-            this.radRibbonBarGroup2.Text = "Delete";
+            this.radRibbonBarGroup2.Text = "Fshij";
             this.radRibbonBarGroup2.UseCompatibleTextRendering = false;
             // 
             // btnFshijRezervim
@@ -466,7 +466,7 @@
             this.radRibbonBarGroup3.MaxSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup3.MinSize = new System.Drawing.Size(0, 0);
             this.radRibbonBarGroup3.Name = "radRibbonBarGroup3";
-            this.radRibbonBarGroup3.Text = "Edit";
+            this.radRibbonBarGroup3.Text = "Edito";
             this.radRibbonBarGroup3.UseCompatibleTextRendering = false;
             // 
             // btnEditoRezervim
@@ -487,7 +487,7 @@
             this.btnRefreshRezervimet.MaxSize = new System.Drawing.Size(0, 0);
             this.btnRefreshRezervimet.MinSize = new System.Drawing.Size(0, 0);
             this.btnRefreshRezervimet.Name = "btnRefreshRezervimet";
-            this.btnRefreshRezervimet.Text = "Refresh";
+            this.btnRefreshRezervimet.Text = "Rifresko";
             this.btnRefreshRezervimet.UseCompatibleTextRendering = false;
             this.btnRefreshRezervimet.Click += new System.EventHandler(this.btnRefreshRezervimet_Click);
             // 
@@ -499,6 +499,24 @@
             this.radButtonElement23.Text = "radButtonElement23";
             this.radButtonElement23.UseCompatibleTextRendering = false;
             this.radButtonElement23.Click += new System.EventHandler(this.btnRefreshRezervimet_Click);
+            // 
+            // btnRezervimetHelp
+            // 
+            this.btnRezervimetHelp.AutoSize = false;
+            this.btnRezervimetHelp.Bounds = new System.Drawing.Rectangle(-1, 0, 60, 100);
+            this.btnRezervimetHelp.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radButtonElement2});
+            this.btnRezervimetHelp.Name = "btnRezervimetHelp";
+            this.btnRezervimetHelp.Text = "Info";
+            this.btnRezervimetHelp.Click += new System.EventHandler(this.btnRezervimetHelp_Click);
+            // 
+            // radButtonElement2
+            // 
+            this.radButtonElement2.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
+            this.radButtonElement2.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement2.Image")));
+            this.radButtonElement2.Name = "radButtonElement2";
+            this.radButtonElement2.Text = "radButtonElement2";
+            this.radButtonElement2.Click += new System.EventHandler(this.btnRezervimetHelp_Click);
             // 
             // ribbonTab4
             // 
@@ -526,7 +544,7 @@
             this.btnAddFusha.MaxSize = new System.Drawing.Size(0, 0);
             this.btnAddFusha.MinSize = new System.Drawing.Size(0, 0);
             this.btnAddFusha.Name = "btnAddFusha";
-            this.btnAddFusha.Text = "Add";
+            this.btnAddFusha.Text = "Shto";
             this.btnAddFusha.UseCompatibleTextRendering = false;
             this.btnAddFusha.Click += new System.EventHandler(this.btnAddFusha_Click);
             // 
@@ -547,7 +565,7 @@
             this.btnDeleteFusha.MaxSize = new System.Drawing.Size(0, 0);
             this.btnDeleteFusha.MinSize = new System.Drawing.Size(0, 0);
             this.btnDeleteFusha.Name = "btnDeleteFusha";
-            this.btnDeleteFusha.Text = "Delete";
+            this.btnDeleteFusha.Text = "Fshij";
             this.btnDeleteFusha.UseCompatibleTextRendering = false;
             this.btnDeleteFusha.Click += new System.EventHandler(this.btnDeleteFusha_Click);
             // 
@@ -568,7 +586,7 @@
             this.btnEditFusha.MaxSize = new System.Drawing.Size(0, 0);
             this.btnEditFusha.MinSize = new System.Drawing.Size(0, 0);
             this.btnEditFusha.Name = "btnEditFusha";
-            this.btnEditFusha.Text = "Edit";
+            this.btnEditFusha.Text = "Edito";
             this.btnEditFusha.UseCompatibleTextRendering = false;
             this.btnEditFusha.Click += new System.EventHandler(this.btnEditFusha_Click);
             // 
@@ -589,7 +607,7 @@
             this.btnRefreshFushat.MaxSize = new System.Drawing.Size(0, 0);
             this.btnRefreshFushat.MinSize = new System.Drawing.Size(0, 0);
             this.btnRefreshFushat.Name = "btnRefreshFushat";
-            this.btnRefreshFushat.Text = "Refresh";
+            this.btnRefreshFushat.Text = "Rifresko";
             this.btnRefreshFushat.UseCompatibleTextRendering = false;
             this.btnRefreshFushat.Click += new System.EventHandler(this.btnRefreshFushat_Click);
             // 
@@ -602,11 +620,29 @@
             this.radButtonElement22.UseCompatibleTextRendering = false;
             this.radButtonElement22.Click += new System.EventHandler(this.btnRefreshFushat_Click);
             // 
+            // btnFushatHelp
+            // 
+            this.btnFushatHelp.AutoSize = false;
+            this.btnFushatHelp.Bounds = new System.Drawing.Rectangle(0, 0, 60, 101);
+            this.btnFushatHelp.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radButtonElement14});
+            this.btnFushatHelp.Name = "btnFushatHelp";
+            this.btnFushatHelp.Text = "Info";
+            this.btnFushatHelp.Click += new System.EventHandler(this.btnFushatHelp_Click);
+            // 
+            // radButtonElement14
+            // 
+            this.radButtonElement14.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
+            this.radButtonElement14.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement14.Image")));
+            this.radButtonElement14.Name = "radButtonElement14";
+            this.radButtonElement14.Text = "radButtonElement14";
+            this.radButtonElement14.Click += new System.EventHandler(this.btnFushatHelp_Click);
+            // 
             // ribbonTab3
             // 
             this.ribbonTab3.AutoEllipsis = false;
             this.ribbonTab3.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.ribbonTab3.IsSelected = true;
+            this.ribbonTab3.IsSelected = false;
             this.ribbonTab3.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnAddKlient,
             this.btnDeleteKlient,
@@ -627,7 +663,7 @@
             this.btnAddKlient.MaxSize = new System.Drawing.Size(0, 0);
             this.btnAddKlient.MinSize = new System.Drawing.Size(0, 0);
             this.btnAddKlient.Name = "btnAddKlient";
-            this.btnAddKlient.Text = "Add";
+            this.btnAddKlient.Text = "Shto";
             this.btnAddKlient.UseCompatibleTextRendering = false;
             this.btnAddKlient.Click += new System.EventHandler(this.btnAddKlient_Click);
             // 
@@ -648,7 +684,7 @@
             this.btnDeleteKlient.MaxSize = new System.Drawing.Size(0, 0);
             this.btnDeleteKlient.MinSize = new System.Drawing.Size(0, 0);
             this.btnDeleteKlient.Name = "btnDeleteKlient";
-            this.btnDeleteKlient.Text = "Delete";
+            this.btnDeleteKlient.Text = "Fshij";
             this.btnDeleteKlient.UseCompatibleTextRendering = false;
             this.btnDeleteKlient.Click += new System.EventHandler(this.btnDeleteKlient_Click);
             // 
@@ -669,7 +705,7 @@
             this.btnRefreshKlient.MaxSize = new System.Drawing.Size(0, 0);
             this.btnRefreshKlient.MinSize = new System.Drawing.Size(0, 0);
             this.btnRefreshKlient.Name = "btnRefreshKlient";
-            this.btnRefreshKlient.Text = "Refresh";
+            this.btnRefreshKlient.Text = "Rifresko";
             this.btnRefreshKlient.UseCompatibleTextRendering = false;
             this.btnRefreshKlient.Click += new System.EventHandler(this.btnRefreshKlient_Click);
             // 
@@ -682,11 +718,29 @@
             this.radButtonElement20.UseCompatibleTextRendering = false;
             this.radButtonElement20.Click += new System.EventHandler(this.btnRefreshKlient_Click);
             // 
+            // btnKlientatHelp
+            // 
+            this.btnKlientatHelp.AutoSize = false;
+            this.btnKlientatHelp.Bounds = new System.Drawing.Rectangle(0, 0, 60, 101);
+            this.btnKlientatHelp.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radButtonElement26});
+            this.btnKlientatHelp.Name = "btnKlientatHelp";
+            this.btnKlientatHelp.Text = "Ndihmesë";
+            this.btnKlientatHelp.Click += new System.EventHandler(this.btnKlientatHelp_Click);
+            // 
+            // radButtonElement26
+            // 
+            this.radButtonElement26.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
+            this.radButtonElement26.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement26.Image")));
+            this.radButtonElement26.Name = "radButtonElement26";
+            this.radButtonElement26.Text = "radButtonElement26";
+            this.radButtonElement26.Click += new System.EventHandler(this.btnKlientatHelp_Click);
+            // 
             // ribbonTab2
             // 
             this.ribbonTab2.AutoEllipsis = false;
             this.ribbonTab2.DisabledTextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.ribbonTab2.IsSelected = false;
+            this.ribbonTab2.IsSelected = true;
             this.ribbonTab2.Items.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnAddUser,
             this.btnDeleteUser,
@@ -708,7 +762,7 @@
             this.btnAddUser.MaxSize = new System.Drawing.Size(0, 0);
             this.btnAddUser.MinSize = new System.Drawing.Size(0, 0);
             this.btnAddUser.Name = "btnAddUser";
-            this.btnAddUser.Text = "Add";
+            this.btnAddUser.Text = "Shto";
             this.btnAddUser.UseCompatibleTextRendering = false;
             this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
@@ -729,7 +783,7 @@
             this.btnDeleteUser.MaxSize = new System.Drawing.Size(0, 0);
             this.btnDeleteUser.MinSize = new System.Drawing.Size(0, 0);
             this.btnDeleteUser.Name = "btnDeleteUser";
-            this.btnDeleteUser.Text = "Delete";
+            this.btnDeleteUser.Text = "Fshij";
             this.btnDeleteUser.UseCompatibleTextRendering = false;
             this.btnDeleteUser.Click += new System.EventHandler(this.btnDeleteUser_Click);
             // 
@@ -750,7 +804,7 @@
             this.btnRefreshUser.MaxSize = new System.Drawing.Size(0, 0);
             this.btnRefreshUser.MinSize = new System.Drawing.Size(0, 0);
             this.btnRefreshUser.Name = "btnRefreshUser";
-            this.btnRefreshUser.Text = "Refresh";
+            this.btnRefreshUser.Text = "Rifresko";
             this.btnRefreshUser.UseCompatibleTextRendering = false;
             this.btnRefreshUser.Click += new System.EventHandler(this.btnRefreshUser_Click);
             // 
@@ -762,6 +816,23 @@
             this.radButtonElement21.Text = "radButtonElement21";
             this.radButtonElement21.UseCompatibleTextRendering = false;
             this.radButtonElement21.Click += new System.EventHandler(this.btnRefreshUser_Click);
+            // 
+            // radRibbonBarGroup12
+            // 
+            this.radRibbonBarGroup12.AutoSize = false;
+            this.radRibbonBarGroup12.Bounds = new System.Drawing.Rectangle(0, 0, 60, 101);
+            this.radRibbonBarGroup12.Items.AddRange(new Telerik.WinControls.RadItem[] {
+            this.radButtonElement24});
+            this.radRibbonBarGroup12.Name = "radRibbonBarGroup12";
+            this.radRibbonBarGroup12.Text = "Info";
+            this.radRibbonBarGroup12.Click += new System.EventHandler(this.radRibbonBarGroup12_Click);
+            // 
+            // radButtonElement24
+            // 
+            this.radButtonElement24.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
+            this.radButtonElement24.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement24.Image")));
+            this.radButtonElement24.Name = "radButtonElement24";
+            this.radButtonElement24.Text = "radButtonElement24";
             // 
             // radRibbonBar1
             // 
@@ -784,27 +855,9 @@
             this.radRibbonBar1.QuickAccessToolBarItems.AddRange(new Telerik.WinControls.RadItem[] {
             this.btnSignOut,
             this.btnEditLoggedUser});
-            this.radRibbonBar1.Size = new System.Drawing.Size(1172, 182);
+            this.radRibbonBar1.Size = new System.Drawing.Size(1172, 183);
             this.radRibbonBar1.TabIndex = 3;
             this.radRibbonBar1.Text = "Rezervime te Futbollit";
-            // 
-            // btnRezervimetHelp
-            // 
-            this.btnRezervimetHelp.AutoSize = false;
-            this.btnRezervimetHelp.Bounds = new System.Drawing.Rectangle(-1, 0, 60, 100);
-            this.btnRezervimetHelp.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radButtonElement2});
-            this.btnRezervimetHelp.Name = "btnRezervimetHelp";
-            this.btnRezervimetHelp.Text = "Help";
-            this.btnRezervimetHelp.Click += new System.EventHandler(this.btnRezervimetHelp_Click);
-            // 
-            // radButtonElement2
-            // 
-            this.radButtonElement2.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
-            this.radButtonElement2.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement2.Image")));
-            this.radButtonElement2.Name = "radButtonElement2";
-            this.radButtonElement2.Text = "radButtonElement2";
-            this.radButtonElement2.Click += new System.EventHandler(this.btnRezervimetHelp_Click);
             // 
             // radRibbonBarGroup1
             // 
@@ -826,59 +879,6 @@
             this.radButtonElement3.Name = "radButtonElement3";
             this.radButtonElement3.Text = "radButtonElement2";
             this.radButtonElement3.UseCompatibleTextRendering = false;
-            // 
-            // btnFushatHelp
-            // 
-            this.btnFushatHelp.AutoSize = false;
-            this.btnFushatHelp.Bounds = new System.Drawing.Rectangle(0, 0, 60, 101);
-            this.btnFushatHelp.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radButtonElement14});
-            this.btnFushatHelp.Name = "btnFushatHelp";
-            this.btnFushatHelp.Text = "Help";
-            this.btnFushatHelp.Click += new System.EventHandler(this.btnFushatHelp_Click);
-            // 
-            // radButtonElement14
-            // 
-            this.radButtonElement14.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
-            this.radButtonElement14.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement14.Image")));
-            this.radButtonElement14.Name = "radButtonElement14";
-            this.radButtonElement14.Text = "radButtonElement14";
-            this.radButtonElement14.Click += new System.EventHandler(this.btnFushatHelp_Click);
-            // 
-            // radRibbonBarGroup12
-            // 
-            this.radRibbonBarGroup12.AutoSize = false;
-            this.radRibbonBarGroup12.Bounds = new System.Drawing.Rectangle(0, 0, 60, 101);
-            this.radRibbonBarGroup12.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radButtonElement24});
-            this.radRibbonBarGroup12.Name = "radRibbonBarGroup12";
-            this.radRibbonBarGroup12.Text = "Help";
-            this.radRibbonBarGroup12.Click += new System.EventHandler(this.radRibbonBarGroup12_Click);
-            // 
-            // radButtonElement24
-            // 
-            this.radButtonElement24.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
-            this.radButtonElement24.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement24.Image")));
-            this.radButtonElement24.Name = "radButtonElement24";
-            this.radButtonElement24.Text = "radButtonElement24";
-            // 
-            // btnKlientatHelp
-            // 
-            this.btnKlientatHelp.AutoSize = false;
-            this.btnKlientatHelp.Bounds = new System.Drawing.Rectangle(0, 0, 60, 101);
-            this.btnKlientatHelp.Items.AddRange(new Telerik.WinControls.RadItem[] {
-            this.radButtonElement26});
-            this.btnKlientatHelp.Name = "btnKlientatHelp";
-            this.btnKlientatHelp.Text = "Help";
-            this.btnKlientatHelp.Click += new System.EventHandler(this.btnKlientatHelp_Click);
-            // 
-            // radButtonElement26
-            // 
-            this.radButtonElement26.DisplayStyle = Telerik.WinControls.DisplayStyle.Image;
-            this.radButtonElement26.Image = ((System.Drawing.Image)(resources.GetObject("radButtonElement26.Image")));
-            this.radButtonElement26.Name = "radButtonElement26";
-            this.radButtonElement26.Text = "radButtonElement26";
-            this.radButtonElement26.Click += new System.EventHandler(this.btnKlientatHelp_Click);
             // 
             // Form1
             // 
