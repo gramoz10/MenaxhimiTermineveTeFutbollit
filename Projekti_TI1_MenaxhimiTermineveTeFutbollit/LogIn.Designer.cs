@@ -52,7 +52,6 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(290, 34);
             this.txtEmail.TabIndex = 0;
-            this.txtEmail.Text = "gramoz.hyseni@riinvest.net";
             // 
             // txtPassword
             // 
@@ -62,7 +61,6 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(290, 34);
             this.txtPassword.TabIndex = 1;
-            this.txtPassword.Text = "asdasd";
             // 
             // btnLogIn
             // 

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BussinessLayer", "Bussiness
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityLayer", "EntityLayer\EntityLayer.csproj", "{2117B264-7E84-4AB9-AD14-7114F0E42BF7}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PTI1_Setup", "PTI1_Setup\PTI1_Setup.vdproj", "{CAA1B38B-63F9-4F4E-994F-A88BE1C6EAEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,8 @@ Global
 		{2117B264-7E84-4AB9-AD14-7114F0E42BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2117B264-7E84-4AB9-AD14-7114F0E42BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2117B264-7E84-4AB9-AD14-7114F0E42BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA1B38B-63F9-4F4E-994F-A88BE1C6EAEE}.Debug|Any CPU.ActiveCfg = Debug
+		{CAA1B38B-63F9-4F4E-994F-A88BE1C6EAEE}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
